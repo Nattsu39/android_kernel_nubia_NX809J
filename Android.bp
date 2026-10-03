@@ -1,0 +1,11 @@
+// QTI display kernel UAPI headers (msm_drm_aiqe.h, sde_drm.h, msm_drm_pp.h, hdcp,
+// media) imported from the OP-WILD kernel source's display-drivers techpack. The
+// prebuilt-GKI build doesn't generate these (no in-tree display kernel source),
+// so the source SDM display stack (libdrmutils/libsdmcore/...) can't find them.
+// Wired into display_headers so all display modules inherit it.
+cc_library_headers {
+    name: "nx809j_qti_display_uapi",
+    vendor: true,
+    recovery_available: true,
+    export_include_dirs: ["display-uapi/include"],
+}
