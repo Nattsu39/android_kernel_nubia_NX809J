@@ -1,0 +1,21 @@
+{
+  "version": "6.12.38-android16-OP-WILD",
+  "root": "ReSukiSU",
+  "image_sha256": "c1a49bb51b1f7339178a00d6c7bc92e843377230cfdacc5c5ea73d3561bde9f3",
+  "image_size": 41179648,
+  "kernel_repository": "https://github.com/Nattsu39/android_kernel_common_oneplus_sm8850",
+  "kernel_branch": "nx809j-resukisu-real-38",
+  "kernel_revision": "2efc589dc1f18db71d24a7d98990117dc1cd6dee",
+  "build_repository": "https://github.com/Nattsu39/OnePlus_KernelSU_SUSFS",
+  "build_branch": "nx809j-resukisu-real-38",
+  "build_revision": "0dcaebd7bc16799dcc0fd05d89e663cb54d766cf",
+  "build_run": "https://github.com/Nattsu39/OnePlus_KernelSU_SUSFS/actions/runs/37102828355",
+  "module_layout_crc": "0xe976b219",
+  "kbuild_gendwarfksyms_stable": true,
+  "camera_shared_gpios": [
+    533,
+    536
+  ],
+  "applied_build_patch_sha256": "aaec6e78bf4648bf5c957f8c3a7ebe2c018354a8005423cf1f0bffde98482cd3",
+  "validation": "531 usable stock driver binaries passed; deployed on 2026-10-03. The pre-existing unused rust_binder.ko exception is not a passing module."
+}
